@@ -4,16 +4,12 @@
 // vect2::vect2(int x, int y) : x_(x), y_(y) {}
 // vect2::vect2(const vect2& other) : x_(other.x_), y_(other.y_) {}
 
-
-
 // int vect2::operator[](int index) const {
 // 	return (index == 0) ? x_ : y_;
 // }
 // int& vect2::operator[](int index) {
 // 	return (index == 0) ? x_ : y_;
 // }
-
-
 
 // vect2& vect2::operator++() {
 // 	++x_;
